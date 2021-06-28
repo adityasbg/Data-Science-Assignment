@@ -11,7 +11,7 @@ class Vectorizer:
 
     """
 
-    def __init__(self, tfidfvector_path='../models/tfidf_vectorizer.pkl'):
+    def __init__(self, tfidfvector_path='models/tfidf_vectorizer.pkl'):
         self.tfidfvector_path: str = tfidfvector_path
 
     def transform_and_pickle_vectorizer(self, noun_chunk_sentence_list: List) -> None:
